@@ -1,0 +1,46 @@
+/* Responsive untuk Tablet 1000px */
+@media (max-width: 1000px ){
+    /* ----- Main ----- */
+    .content{
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .card{
+        flex-wrap: wrap;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+
+    /* ----- Navbar List ----- */
+    .header-list li{
+        display: none;
+    }
+}
+
+/* Responsive untuk SmartPhone 670px */
+@media (max-width: 670px ){
+
+    .card{
+        width: 100%;
+    }
+    
+    /* .header-navbar{
+        text-align: left;
+    } */
+
+    .nav-list li{
+        display: none;
+    }
+
+    .copy-container h1{
+        font-size: 45px;
+        padding-top: 200px;
+    }
+    .copy-container h2{
+        font-size: 32;
+    }
+
+}
