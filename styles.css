@@ -1,8 +1,8 @@
 body{
     width: 100%;
-    
     background-image: linear-gradient(rgba(175, 231, 231, 0.9),rgba(240, 131, 212, 0.849));
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* -----Header----- */
