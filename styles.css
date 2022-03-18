@@ -147,17 +147,18 @@ main{
 
 
 /* ----- Body ----- */
-.clear{
-    clear: left;
-}
 
 /* ----- Section About ----- */
 
-.section-about{
+.section-about {
     color: #fff;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     
+}
+
+.section-about h2 {
+    padding: 10px;
 }
 /* ----- Section Akhir About ----- */
 
@@ -168,7 +169,7 @@ main{
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 
